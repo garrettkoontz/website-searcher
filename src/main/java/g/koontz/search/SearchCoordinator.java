@@ -38,8 +38,6 @@ public class SearchCoordinator {
         }
     }
 
-    private AtomicInteger urlCount = new AtomicInteger(0);
-
     class SearcherThread implements Runnable {
 
         @Override
